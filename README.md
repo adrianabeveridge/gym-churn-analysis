@@ -1,4 +1,4 @@
-# 📊 Project 13 — Customer Churn Analysis (Gym Customers)
+# 📊 Customer Churn Analysis (Gym Customers)
 
 ## 📌 Overview
 
