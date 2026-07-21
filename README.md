@@ -77,8 +77,10 @@ Based on the analysis:
 - Encourage participation in group activities.
 - Create targeted communication campaigns for high-risk customers.
 
+## Project Status
+
+Completed ✅
+
 ## Author
 
 Adriana Beveridge
-
-Data Analyst | Business Analyst
