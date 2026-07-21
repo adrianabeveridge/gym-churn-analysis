@@ -1,4 +1,4 @@
-# Gym Customer Churn Prediction | Machine Learning Project
+## Gym Customer Churn Prediction | Machine Learning Project
 
 ## Project Overview
 
