@@ -1,4 +1,4 @@
-# Gym Customer Churn Analysis
+# Gym Customer Churn Prediction | Machine Learning Project
 
 ## Project Overview
 
@@ -59,6 +59,15 @@ The Random Forest model achieved:
 - Recall: 83.49%
 
 The model successfully identified customers with higher churn risk.
+
+## Key Insights
+
+The analysis identified that churn is strongly associated with:
+
+- Customer lifetime
+- Contract duration
+- Visit frequency
+- Customer engagement
 
 ## Business Recommendations
 
