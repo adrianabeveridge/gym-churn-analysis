@@ -1,35 +1,29 @@
-# 📊 Customer Churn Analysis (Gym Customers)
+# Gym Customer Churn Analysis
 
-## 📌 Overview
+## Project Overview
 
-This project analyzes customer behavior in a gym and builds a predictive model to identify customer churn. The goal is to understand usage patterns, engagement levels, and key factors that influence subscription cancellation, supporting data-driven retention strategies.
+This project analyzes customer churn behavior in a fitness center using exploratory data analysis, customer segmentation, and machine learning models.
 
----
+The goal is to identify the main factors related to customer cancellation and provide business recommendations to improve customer retention.
 
-## 🎯 Objective
+## Objectives
 
-- Analyze gym customer behavior
-- Identify factors associated with churn (customer cancellation)
-- Build a predictive model to estimate churn probability
-- Support business decisions for customer retention
+- Analyze customer characteristics and behavior
+- Identify factors associated with churn
+- Build predictive machine learning models
+- Segment customers based on similar behaviors
 
----
-
-## 📁 Dataset
+## Dataset
 
 The dataset contains information about gym customers, including:
 
-- Usage frequency
-- Contract details
-- Customer behavior metrics
-- Target variable: **churn (0 = active, 1 = churned)**
+- Customer demographics
+- Contract information
+- Visit frequency
+- Additional services
+- Churn status
 
-File used:
-- `gym_churn_us.csv`
-
----
-
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - Python
 - Pandas
@@ -39,49 +33,43 @@ File used:
 - Scikit-learn
 - Jupyter Notebook
 
----
+## Analysis Performed
 
-## 🔍 Project Workflow
+### Exploratory Data Analysis (EDA)
 
-### 1. Exploratory Data Analysis (EDA)
-- Data cleaning and missing values check
-- Descriptive statistics
-- Feature distribution analysis
+- Data quality check
+- Missing values analysis
+- Distribution analysis
 - Correlation analysis
 
-### 2. Data Preprocessing
-- Feature scaling / normalization
-- Data preparation for machine learning models
+### Machine Learning
 
-### 3. Machine Learning Modeling
+Models evaluated:
+
 - Logistic Regression
-- Random Forest (if applied)
-- Model training and validation
+- Random Forest
+- Dummy Classifier (baseline)
 
-### 4. Model Evaluation
-- Accuracy
-- Precision
-- Recall
-- F1-score
+## Results
 
----
+The Random Forest model achieved:
 
-## 📊 Key Insights
+- Accuracy: 92.75%
+- Precision: 88.50%
+- Recall: 83.49%
 
-- Customers with lower usage frequency are more likely to churn
-- Short-term contracts are strongly associated with higher churn rates
-- Early engagement plays a key role in customer retention
+The model successfully identified customers with higher churn risk.
 
----
+## Business Recommendations
 
-## 📈 Business Impact
+Based on the analysis:
 
-This model helps identify customers at risk of churn, allowing the company to take proactive actions such as:
+- Focus retention strategies on customers with lower engagement.
+- Encourage participation in group activities.
+- Create targeted communication campaigns for high-risk customers.
 
-- Targeted retention campaigns
-- Personalized offers
-- Engagement monitoring strategies
+## Author
 
----
+Adriana Beveridge
 
-## 📂 Project Structure
+Data Analyst | Business Analyst
